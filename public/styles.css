@@ -1,0 +1,98 @@
+/* styles.css */
+
+/* Add your custom styles here */
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+  padding: 1rem;
+  background: -webkit-linear-gradient(#010101, #111111);
+}
+
+.navbar-brand img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hero Section styles */
+.hero {
+  padding: 4rem 0;
+  background: -webkit-linear-gradient(#111111, #010101);
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+}
+
+/* Services Section styles */
+.services {
+  padding: 4rem 0;
+}
+
+.services h2 {
+  margin-bottom: 2rem;
+}
+
+/* Features Section styles */
+#features {
+  padding: 4rem 0;
+  background: -webkit-linear-gradient(#010101, #111111);
+}
+
+.btn-primary {
+  background: #d9b730;
+  border-color: #010101;
+  color: #111111;
+}
+
+#features h2 {
+  margin-bottom: 2rem;
+}
+
+/* Why Section styles */
+#why {
+  padding: 4rem 0;
+}
+
+#why h2 {
+  margin-bottom: 2rem;
+}
+
+/* Contact Section styles */
+#contact {
+  padding: 4rem 0;
+}
+
+#contact h2 {
+  margin-bottom: 2rem;
+}
+
+/* Form styles */
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+/* Footer styles */
+footer {
+  background-color: #f8f9fa;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navbar-brand img {
+    max-width: 70%;
+  }
+}
+
+/* Footer styles */
+footer {
+  background: -webkit-linear-gradient(#010101, #111111);
+  color: #fff; /* Text color */
+  padding: 1rem 0;
+  text-align: center;
+}
